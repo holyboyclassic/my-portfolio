@@ -1,50 +1,69 @@
-# Anuoluwa — Junior Frontend Developer
+ # Hi, I'm a Junior Frontend Developer
 
-A responsive, single-page portfolio made with React, JavaScript, and Vite. The workspace-level `folio.jsx` re-exports the portfolio component from this app.
+Welcome to my portfolio repository! 
 
-## Run locally
+I'm a passionate web developer focused on building responsive, user-friendly, and visually appealing web applications. I enjoy turning ideas into functional digital experiences while continuously learning and improving my skills.
 
-From this `folio` directory:
+##  About Me
 
-```sh
-npm install
-npm run dev
-```
+*  Currently learning **React.js** and modern frontend development.
+*  Skilled in **HTML, CSS, and JavaScript**.
+*  Exploring component-based development with **React**.
+*  Focused on building practical projects and solving real-world problems.
+*  Open to frontend development internships, collaborations, and opportunities to grow as a developer.
 
-Open the local URL printed by Vite. To check a production build:
+##  Technologies & Tools
 
-```sh
-npm run build
-npm run preview
-```
+* HTML5
+* CSS3
+* JavaScript
+* React.js
+* Git & GitHub
+* VS Code
+* Vercel
 
-## Personalise before publishing
+##  Featured Projects
 
-- In `src/App.jsx`, replace the empty `email`, `github`, and `linkedin` constants near the top with your real contact details. Email automatically becomes a `mailto:` link when set.
-- Replace each project's clearly labelled live-preview and GitHub placeholders only when you have the real URLs. The Oja and CCC project technology stacks are marked “Stack to confirm” because project source files were not provided.
-- The profile photo is stored at `src/assets/anuoluwa.jpeg`. Replace it with your preferred portrait while keeping the imported filename or updating the import in `src/App.jsx`.
-- The project cards currently use small CSS-built illustrations, not screenshots of completed work. To use your own screenshots, put image files in `src/assets/` and replace the corresponding `<ProjectPreview />` content in `src/App.jsx` with an `<img src={...} alt="..." />`; use meaningful alternative text and keep the preview aspect ratio.
+Here are some projects I've worked on as part of my development journey:
 
-## Project structure
+###  Anuoluwa Fashion World
 
-- `../folio.jsx` — workspace-level re-export of the portfolio component.
-- `src/App.jsx` — portfolio content and reusable React components: `Header`, `SectionHeading`, `ProjectPreview`, `ProjectCard`, `ContactLink`, and `Footer`.
-- `src/main.jsx` — React DOM entry point; mounts the portfolio in `StrictMode` and loads the stylesheet.
-- `src/app.css` — dark theme, responsive layouts, typography, project illustrations, interaction states, and reduced-motion support.
-- `index.html` — Vite HTML entry point, document title, theme color, and search description.
-- `vite.config.js` — Vite configuration with the React plugin.
-- `public/favicon.svg` — browser tab icon.
-- `package.json` and `package-lock.json` — npm scripts and locked dependencies.
+A fashion and tailoring website designed to showcase clothing services and make it easier for customers to connect with the business.
 
-## How it works
+###  Oja — Online Wholesale Market
 
-The page is composed from reusable React components and data arrays for project cards and skill badges. Navigation uses in-page anchors with smooth scrolling; the mobile menu uses React state and closes when a navigation item is selected. Contact and social details are intentionally placeholders until real URLs are supplied. Responsive CSS adjusts the navigation, hero, project grid, skills, and contact panel for small screens, and respects the visitor's reduced-motion preference.
+A web project focused on connecting users with an online wholesale shopping experience.
 
-## Deploy to Vercel
+###  Weather App
 
-1. Push this project to a Git provider.
-2. In Vercel, import the repository and set the **Root Directory** to `folio`.
-3. Use `npm run build` as the build command and `dist` as the output directory. Vercel detects Vite automatically.
-4. Deploy. No environment variables are required for this static portfolio.
+A weather application that uses an API to retrieve and display weather information.
 
-You can also install the Vercel CLI and deploy from this folder with `npx vercel`, then use `npx vercel --prod` for production.
+###  To-Do List
+
+A task management application designed to help users organize daily activities and keep track of tasks.
+
+###  Temperature Converter
+
+A simple application that converts temperatures between different units using JavaScript.
+
+*Explore my repositories for project source code and available live demos.*
+
+##  My Goals
+
+* Strengthen my JavaScript and React skills.
+* Build more practical, responsive web applications.
+* Improve my problem-solving and debugging abilities.
+* Contribute to real-world projects.
+* Secure a frontend development internship or junior developer opportunity.
+
+##  Let's Connect
+
+* **GitHub:** (https://github.com/holyboyclassic)
+* **LinkedIn:** https://www.linkedin.com/in/anuoluwapo-emmanuel-ba14273a2
+* **Email:** okeemmanuel61@gmail.com
+
+---
+
+ Thank you for visiting my portfolio!
+
+I'm always learning, building, and looking for opportunities to grow as a developer.
