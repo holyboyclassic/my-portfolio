@@ -309,7 +309,7 @@ export default function Portfolio() {
       <main id="main">
         <section className="hero container" id="home" aria-labelledby="hero-title">
           <div className="hero-copy">
-            <span className="eyebrow hero-eyebrow"><span className="status-dot" /> JUNIOR FRONTEND DEVELOPER</span>
+            <span className="eyebrow hero-eyebrow"><span className="status-dot" /> FRONTEND DEVELOPER</span>
             <h1 id="hero-title">Thoughtful code.<br /><span>Meaningful</span> interfaces.</h1>
             <p className="hero-description">
               I build responsive websites and interactive experiences that make the web feel a little more human.
@@ -324,7 +324,7 @@ export default function Portfolio() {
             <img
               className="hero-photo"
               src={portrait}
-              alt="Portrait of Anuoluwa, junior frontend developer"
+              alt="Portrait of Anuoluwa, Frontend developer"
             />
             <span className="photo-caption">HELLO, I'M Anuoluwapo</span>
           </div>
